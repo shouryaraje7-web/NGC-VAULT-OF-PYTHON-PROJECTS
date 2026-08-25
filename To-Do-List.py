@@ -11,7 +11,11 @@ while run == True:
     
     Did = input(" Enter 'done' when above task completed: ")
     
-    if Did == "Done"or"done":
+    if Did == "Done" or Did == "done":
         print(f"done: {task}" )
+        print()
+        
+    else:
+        print(" Error: Type 'Done' only...")
         print()
         
