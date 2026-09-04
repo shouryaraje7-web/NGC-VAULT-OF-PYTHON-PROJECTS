@@ -36,7 +36,7 @@ while True:
             continue
         print(f"{quant1} {choice.lower()} are ordered")
         print("Just wait for few minutes")
-        bill = 40*quant
+        bill = 40*quant1
         print(f"Total Bill is ₹{bill}")
              
         #coffee     
@@ -47,7 +47,7 @@ while True:
             continue
         print(f"{quant2}   {choice.lower()} are ordered")
         print("Just wait for few minutes")
-        bill = 20*quant
+        bill = 20*quant2
         print(f"Total Bill is ₹{bill}")
             
         #pizza    
@@ -58,7 +58,7 @@ while True:
             continue
         print(f"{quant3} {choice.lower()} are ordered")
         print("Just wait for few minutes")
-        bill = 60*quant
+        bill = 60*quant3
         print(f"Total Bill is ₹{bill}")
       
        #error         
